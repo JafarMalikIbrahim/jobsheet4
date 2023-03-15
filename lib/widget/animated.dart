@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AnimatedProgressIndicator extends StatefulWidget {
   final double value;
 
-  const AnimatedProgressIndicator({
+  const AnimatedProgressIndicator({super.key, 
     required this.value,
   });
 
